@@ -31,5 +31,5 @@ with st.container():
   with col5:
     st.image("images/icons8-google-cloud-48.png")
   with col6:
-    sst.write("")
+    st.write("")
   
