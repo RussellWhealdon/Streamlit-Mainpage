@@ -19,7 +19,7 @@ st.markdown(f"<p style='text-align: center; color: white;'>Hi! I'm Russell Wheal
 
 with st.container():
   st.markdown(f"<h2 style='text-align: center; color: white;'>Skills</h2>", unsafe_allow_html=True)
-  col1, col2, col3, col4, col5, col6 = st.columns(4)
+  col1, col2, col3, col4, col5, col6 = st.columns(6)
   with col1:
     st.write("")
   with col2:
