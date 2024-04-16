@@ -21,10 +21,11 @@ with st.container():
   st.markdown(f"<h2 style='text-align: center; color: white;'>Skills</h2>", unsafe_allow_html=True)
   col1, col2, col3, col4 = st.columns(4)
   with col1:
-    st.image("images/icons8-python-48.png")
+    st.markdown("<img src='images/icons8-python-48.png' style='max-width: 100%; height: auto; display: block; margin: auto;'>", unsafe_allow_html=True)
   with col2:
-    st.image("images/icons8-mysql-48.png")
+    st.markdown("<img src='images/icons8-mysql-48.png' style='max-width: 100%; height: auto; display: block; margin: auto;'>", unsafe_allow_html=True)
   with col3:
-    st.image("images/icons8-tableau-software-48.png")
+    st.markdown("<img src='images/icons8-tableau-software-48.png' style='max-width: 100%; height: auto; display: block; margin: auto;'>", unsafe_allow_html=True)
   with col4:
-    st.image("images/icons8-google-cloud-48.png")
+    st.markdown("<img src='images/icons8-google-cloud-48.png' style='max-width: 100%; height: auto; display: block; margin: auto;'>", unsafe_allow_html=True)
+  
