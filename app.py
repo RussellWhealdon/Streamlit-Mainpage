@@ -21,6 +21,12 @@ with st.container():
   st.markdown(f"<h2 style='text-align: center; color: white;'>Skills</h2>", unsafe_allow_html=True)
   col1, col2, col3, col4 = st.columns(4)
   with col1:
+    st.markdown("""
+<div style='text-align: center;'>
+    <img src='images/icons8-python-48.png' style='height: 50px;'>
+    <p>Python Programming</p>
+</div>
+""", unsafe_allow_html=True)
     st.markdown("<img src='images/icons8-python-48.png' style='max-width: 100%; height: auto; display: block; margin: auto;'>", unsafe_allow_html=True)
   with col2:
     st.markdown("<img src='images/icons8-mysql-48.png' style='max-width: 100%; height: auto; display: block; margin: auto;'>", unsafe_allow_html=True)
