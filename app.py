@@ -19,13 +19,17 @@ st.markdown(f"<p style='text-align: center; color: white;'>Hi! I'm Russell Wheal
 
 with st.container():
   st.markdown(f"<h2 style='text-align: center; color: white;'>Skills</h2>", unsafe_allow_html=True)
-  col1, col2, col3, col4 = st.columns(4)
+  col1, col2, col3, col4, col5, col6 = st.columns(4)
   with col1:
-    st.image("images/icons8-python-48.png")
+    st.write("")
   with col2:
-    st.image("images/icons8-mysql-48.png")
+    st.image("images/icons8-python-48.png")
   with col3:
-    st.image("images/icons8-tableau-software-48.png")
+    st.image("images/icons8-mysql-48.png")
   with col4:
+    st.image("images/icons8-tableau-software-48.png")
+  with col5:
     st.image("images/icons8-google-cloud-48.png")
+  with col6:
+    sst.write("")
   
