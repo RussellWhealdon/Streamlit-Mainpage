@@ -21,7 +21,7 @@ with st.container():
   st.markdown(f"<h2 style='text-align: center; color: white;'>Skills</h2>", unsafe_allow_html=True)
   col1, col2, col3, col4 = st.columns(4)
   with col1:
-    st.image("icons8-python-48.png")
+    st.image("images/icons8-python-48.png")
   with col2:
     st.image("images/icons8-mysql-48.png")
   with col3:
