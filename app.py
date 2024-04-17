@@ -23,6 +23,18 @@ with st.container():
   with col1:
     st.write("")
   with col2:
+    # HTML and CSS to center the image
+st.markdown("""
+    <style>
+    .center-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    </style>
+    <img src="images/icons8-python-48.png" class="center-image">
+""", unsafe_allow_html=True)
     st.image("images/icons8-python-48.png")
   with col3:
     st.image("images/icons8-mysql-48.png")
