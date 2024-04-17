@@ -18,10 +18,24 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 # Page navigation
 st.sidebar.title("Navigation")
 option = st.sidebar.radio("Go to", ('Home', 'About', 'Contact'))
-
+### links ###
+"""
 if option == 'Home':
 elif option == 'About':
 elif option == 'Contact':
+"""
+### Set sidebar background ###
+sidebar_bg_img = """
+<style>
+[data-testid="stSidebar"] {
+    background-image: url("https://source.unsplash.com/blue-sky-and-white-clouds-b8dA3eY5VrY");
+    background-size: cover;
+}
+</style>
+"""
+
+# Inject CSS with Markdown
+st.markdown(sidebar_bg_img, unsafe_allow_html=True)
 
 st.markdown(f"<p style='text-align: center; color: white;'>Hi! I'm Russell Whealdon and this my Data Science portfolio that holds a wide range of interesting Analytics, Machine Learning, and AI related projects. I'm currently a Data Analyst working at an Ad Agency specializing in modeling and data infrastructure. In here you will also find projects from my Masters in Business Analytics program. I hope you find it interesting and would love to hear from you. Please reach out to me directly or connect on Linkedin. Cheers!</p>", unsafe_allow_html=True)
 
