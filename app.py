@@ -15,7 +15,19 @@ background-size: cover;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-st.sidebar.header('Navigation')
+# Page navigation
+st.sidebar.title("Navigation")
+option = st.sidebar.radio("Go to", ('Home', 'About', 'Contact'))
+
+if option == 'Home':
+    st.title("Home Page")
+    st.write("Welcome to the home page.")
+elif option == 'About':
+    st.title("About Page")
+    st.write("Here is the about page.")
+elif option == 'Contact':
+    st.title("Contact Page")
+    st.write("Contact us here.")
 
 st.markdown(f"<p style='text-align: center; color: white;'>Hi! I'm Russell Whealdon and this my Data Science portfolio that holds a wide range of interesting Analytics, Machine Learning, and AI related projects. I'm currently a Data Analyst working at an Ad Agency specializing in modeling and data infrastructure. In here you will also find projects from my Masters in Business Analytics program. I hope you find it interesting and would love to hear from you. Please reach out to me directly or connect on Linkedin. Cheers!</p>", unsafe_allow_html=True)
 
@@ -35,4 +47,6 @@ with st.container():
     st.image("images/icons8-google-cloud-48.png")
   with col6:
     st.write("")
+
+
   
