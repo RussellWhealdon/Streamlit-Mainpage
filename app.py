@@ -19,11 +19,11 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 st.sidebar.title("Navigation")
 option = st.sidebar.radio("Go to", ('Home', 'About', 'Contact'))
 ### links ###
-"""
-if option == 'Home':
-elif option == 'About':
-elif option == 'Contact':
-"""
+
+#if option == 'Home':
+#elif option == 'About':
+#elif option == 'Contact':
+
 ### Set sidebar background ###
 sidebar_bg_img = """
 <style>
