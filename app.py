@@ -24,7 +24,7 @@ with st.container():
     st.write("")
   with col2:
     # HTML and CSS to center the image
-st.markdown("""
+    st.markdown("""
     <style>
     .center-image {
         display: block;
