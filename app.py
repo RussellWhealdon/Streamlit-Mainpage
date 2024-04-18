@@ -62,5 +62,13 @@ with st.container():
     url = "https://russellwhealdonportfolio-cawildifire.streamlit.app/"
     st.markdown(f"<h4><a href='{url}' target='_blank'>California Wildfire Damage Analysis</a></h4>", unsafe_allow_html=True)
     st.markdown(f"<p style='text-align: left; color: white;'>This dashboard presents an analysis of the economic impacts of wildfires, developed in collaboration with Deloitte's sustainability arm. The project aims to understand and predict the financial damages caused by wildfires, leveraging data on various environmental and economic factors. The predictive modeling was done using an XGBoost regression model, enhanced with SHAP and LIME for model interpretability.</p>", unsafe_allow_html=True)
-
+    st.markdown(f"<p style='text-align: left; color: white;'>Key Skills:</p>", unsafe_allow_html=True)
+    st.markdown("""
+    <ul>
+      <li>Data Cleaning w/ Python - Joined multiple datasets, cleaned data, made transformations, and prepped data for modeling</li>
+      <li>Data Analysis - Data exploration w/ numpy, correlation analysis, time series, geo mapping</li>
+      <li>Machine Learning - Built and tuned XGBoost Model, used multiple forms of feature importance, interpreted model results</li>
+      <li>Collaboration with Stakeholders/Communicated Results - Regularly met with reps from Delloite and then presented results to team</li>
+    </ul>
+    """, unsafe_allow_html=True)
   
