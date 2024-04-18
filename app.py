@@ -67,7 +67,6 @@ with st.container():
     <style>
     ul.white-text-list {
     color: white;          /* Set the text color to white */
-    background-color: #333; /* Optional: dark background for contrast */
     padding: 10px;         /* Optional: some padding */
     }
     </style>
