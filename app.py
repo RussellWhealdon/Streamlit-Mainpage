@@ -58,5 +58,8 @@ with st.container():
 
 with st.container():
     st.markdown(f"<h2 style='text-align: left; color: white;'>Projects</h2>", unsafe_allow_html=True)
+    # Using markdown to add a hyperlink
+    url = "https://russellwhealdonportfolio-cawildifire.streamlit.app/"
+    st.markdown(f"[CA Wildfire Dataset Feature Analysis]({url})")
 
   
