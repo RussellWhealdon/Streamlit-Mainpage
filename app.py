@@ -71,7 +71,7 @@ with st.container():
     padding: 10px;         /* Optional: some padding */
 }
     </style>
-    <ul class='white-text'>
+    <ul class='white-text-list'>
       <li>Data Cleaning w/ Python - Joined multiple datasets, cleaned data, made transformations, and prepped data for modeling</li>
       <li>Data Analysis - Data exploration w/ numpy, correlation analysis, time series, geo mapping</li>
       <li>Machine Learning - Built and tuned XGBoost Model, used multiple forms of feature importance, interpreted model results</li>
