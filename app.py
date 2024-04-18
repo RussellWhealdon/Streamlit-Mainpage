@@ -69,7 +69,7 @@ with st.container():
     color: white;          /* Set the text color to white */
     background-color: #333; /* Optional: dark background for contrast */
     padding: 10px;         /* Optional: some padding */
-}
+    }
     </style>
     <ul class='white-text-list'>
       <li>Data Cleaning w/ Python - Joined multiple datasets, cleaned data, made transformations, and prepped data for modeling</li>
