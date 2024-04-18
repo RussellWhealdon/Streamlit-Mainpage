@@ -56,5 +56,7 @@ with st.container():
   with col6:
     st.write("")
 
+with st.container():
+    st.markdown(f"<h2 style='text-align: left; color: white;'>Projects</h2>", unsafe_allow_html=True)
 
   
