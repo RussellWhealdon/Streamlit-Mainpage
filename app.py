@@ -60,6 +60,6 @@ with st.container():
     st.markdown(f"<h2 style='text-align: left; color: white;'>Projects</h2>", unsafe_allow_html=True)
     # Using markdown to add a hyperlink
     url = "https://russellwhealdonportfolio-cawildifire.streamlit.app/"
-    st.markdown(f"<h3><a href='{url}' target='_blank'>Visit our other dashboard for more insights.</a></h3>", unsafe_allow_html=True)
+    st.markdown(f"<h4><a href='{url}' target='_blank'>California Wildfire Damage Analysis</a></h4>", unsafe_allow_html=True)
 
   
