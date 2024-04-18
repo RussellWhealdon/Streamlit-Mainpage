@@ -69,11 +69,11 @@ with st.container():
     color: white;
     }
     </style>
-    <ul>
-      <li>Data Cleaning w/ Python - Joined multiple datasets, cleaned data, made transformations, and prepped data for modeling</li>
-      <li>Data Analysis - Data exploration w/ numpy, correlation analysis, time series, geo mapping</li>
-      <li>Machine Learning - Built and tuned XGBoost Model, used multiple forms of feature importance, interpreted model results</li>
-      <li>Collaboration with Stakeholders/Communicated Results - Regularly met with reps from Delloite and then presented results to team</li>
-    </ul>
+    <div class='white-text'>
+      -Data Cleaning w/ Python - Joined multiple datasets, cleaned data, made transformations, and prepped data for modeling
+      -Data Analysis - Data exploration w/ numpy, correlation analysis, time series, geo mapping
+      -Machine Learning - Built and tuned XGBoost Model, used multiple forms of feature importance, interpreted model results
+      -Collaboration with Stakeholders/Communicated Results - Regularly met with reps from Delloite and then presented results to team
+    </div>
     """, unsafe_allow_html=True)
   
