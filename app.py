@@ -17,9 +17,15 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Page navigation
 st.sidebar.title("Navigation")
-option = st.sidebar.radio("Go to", ('Home', 'About', 'Contact'))
-### links ###
+st.sidebar.markdown(f"<h4>Navigation</h4>", unsafe_allow_html=True)
+url_home = "https://russellwhealdonportfolio.streamlit.app/"
+url_resume = "https://russellwhealdonportfolio.streamlit.app/"
+url_hobbies = "https://russellwhealdonportfolio.streamlit.app/"
+st.sidebar.markdown(f"<h4><a href='{url_home}' target='_blank'>Home</a></h4>", unsafe_allow_html=True)
+st.sidebar.markdown(f"<h4><a href='{url_resume}' target='_blank'>Resume</a></h4>", unsafe_allow_html=True)
+st.sidebar.markdown(f"<h4><a href='{url_hobbies}' target='_blank'>Hobbies</a></h4>", unsafe_allow_html=True)
 
+### links ###
 #if option == 'Home':
 #elif option == 'About':
 #elif option == 'Contact':
