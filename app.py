@@ -59,9 +59,9 @@ with st.container():
 with st.container():
     st.markdown(f"<h2 style='text-align: left; color: white;'>Projects</h2>", unsafe_allow_html=True)
     # Using markdown to add a hyperlink
+    url_WF = "https://russellwhealdonportfolio-cawildifire.streamlit.app/"
+    st.markdown(f"<h4><a href='{url_WF}' target='_blank'>California Wildfire Damage Analysis</a></h4>", unsafe_allow_html=True)    
     with st.expander("See more about this project:"): 
-        url_WF = "https://russellwhealdonportfolio-cawildifire.streamlit.app/"
-        st.markdown(f"<h4><a href='{url_WF}' target='_blank'>California Wildfire Damage Analysis</a></h4>", unsafe_allow_html=True)
         st.markdown(f"<p style='text-align: left; color: white;'>This dashboard presents an analysis of the economic impacts of wildfires, developed in collaboration with Deloitte's sustainability arm. The project aims to understand and predict the financial damages caused by wildfires, leveraging data on various environmental and economic factors. The predictive modeling was done using an XGBoost regression model, enhanced with SHAP and LIME for model interpretability.</p>", unsafe_allow_html=True)
         st.markdown(f"<p style='text-align: left; color: white;'>Key Skills Displayed:</p>", unsafe_allow_html=True)
         st.markdown("""
