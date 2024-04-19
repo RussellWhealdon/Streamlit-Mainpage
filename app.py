@@ -59,26 +59,27 @@ with st.container():
 with st.container():
     st.markdown(f"<h2 style='text-align: left; color: white;'>Projects</h2>", unsafe_allow_html=True)
     # Using markdown to add a hyperlink
-    url_WF = "https://russellwhealdonportfolio-cawildifire.streamlit.app/"
-    st.markdown(f"<h4><a href='{url_WF}' target='_blank'>California Wildfire Damage Analysis</a></h4>", unsafe_allow_html=True)
-    st.markdown(f"<p style='text-align: left; color: white;'>This dashboard presents an analysis of the economic impacts of wildfires, developed in collaboration with Deloitte's sustainability arm. The project aims to understand and predict the financial damages caused by wildfires, leveraging data on various environmental and economic factors. The predictive modeling was done using an XGBoost regression model, enhanced with SHAP and LIME for model interpretability.</p>", unsafe_allow_html=True)
-    st.markdown(f"<p style='text-align: left; color: white;'>Key Skills Displayed:</p>", unsafe_allow_html=True)
-    st.markdown("""
-    <style>
-    ul.white-text-list {
-    color: white;          /* Set the text color to white */
-    padding: 10px;         /* Optional: some padding */
-    }
-    </style>
-    <ul class='white-text-list'>
-      <li>Data Cleaning w/ Python - Joined multiple datasets, cleaned data, made transformations, and prepped data for modeling</li>
-      <li>Data Analysis - Data exploration w/ numpy, correlation analysis, time series, geo mapping</li>
-      <li>Machine Learning - Built and tuned XGBoost Model, used multiple forms of feature importance, interpreted model results</li>
-      <li>Collaboration with Stakeholders/Communicated Results - Regularly met with reps from Delloite and then presented results to team</li>
-    </ul>
-    """, unsafe_allow_html=True)
+    with st.expander("See more about this project:"): 
+        url_WF = "https://russellwhealdonportfolio-cawildifire.streamlit.app/"
+        st.markdown(f"<h4><a href='{url_WF}' target='_blank'>California Wildfire Damage Analysis</a></h4>", unsafe_allow_html=True)
+        st.markdown(f"<p style='text-align: left; color: white;'>This dashboard presents an analysis of the economic impacts of wildfires, developed in collaboration with Deloitte's sustainability arm. The project aims to understand and predict the financial damages caused by wildfires, leveraging data on various environmental and economic factors. The predictive modeling was done using an XGBoost regression model, enhanced with SHAP and LIME for model interpretability.</p>", unsafe_allow_html=True)
+        st.markdown(f"<p style='text-align: left; color: white;'>Key Skills Displayed:</p>", unsafe_allow_html=True)
+        st.markdown("""
+        <style>
+        ul.white-text-list {
+        color: white;          /* Set the text color to white */
+        padding: 10px;         /* Optional: some padding */
+        }
+        </style>
+        <ul class='white-text-list'>
+          <li>Data Cleaning w/ Python - Joined multiple datasets, cleaned data, made transformations, and prepped data for modeling</li>
+          <li>Data Analysis - Data exploration w/ numpy, correlation analysis, time series, geo mapping</li>
+          <li>Machine Learning - Built and tuned XGBoost Model, used multiple forms of feature importance, interpreted model results</li>
+          <li>Collaboration with Stakeholders/Communicated Results - Regularly met with reps from Delloite and then presented results to team</li>
+        </ul>
+        """, unsafe_allow_html=True)
 
-    # Using markdown to add a hyperlink
+        # Using markdown to add a hyperlink
     url_MLDash = "https://russellwhealdonportfolio-cawildifire.streamlit.app/"
     st.markdown(f"<h4><a href='{url_WF}' target='_blank'>Reporting Dash w/ Forecasting Model using direct BigQuery connection</a></h4>", unsafe_allow_html=True)
     st.markdown(f"<p style='text-align: left; color: white;'>This dashboard using custom python to create visualizations and metrics for account manager reporting.</p>", unsafe_allow_html=True)
