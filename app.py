@@ -16,8 +16,7 @@ background-size: cover;
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Page navigation
-st.sidebar.title("Navigation")
-st.sidebar.markdown(f"<h4>Navigation</h4>", unsafe_allow_html=True)
+st.sidebar.markdown(f"<h4 style='text-align: center; color: white;>Navigation</h4>", unsafe_allow_html=True)
 url_home = "https://russellwhealdonportfolio.streamlit.app/"
 url_resume = "https://russellwhealdonportfolio.streamlit.app/"
 url_hobbies = "https://russellwhealdonportfolio.streamlit.app/"
