@@ -104,5 +104,6 @@ with st.container():
 
 with st.container():
     st.markdown(f"<h2 style='text-align: left; color: white;'>Tableau Dashboards</h2>", unsafe_allow_html=True)
-    st.markdown(f"<h4><a href='{url_WF}' target='_blank'>Period over period comparison for different metrics using dynamic parameters</a></h4>", unsafe_allow_html=True)
+    st.markdown(f"<h4>Period over Period Comparison for Account Management</h4>", unsafe_allow_html=True)
+    st.markdown(f"<p style='text-align: left; color: white;'>This dashboard uses LOD expressions and dynamic parameters to quickly allow account managers to switch between key metrics to see both period over period statistics and custom visuals.</p>", unsafe_allow_html=True)
     st.image("images/TableauPoPChart.gif")
