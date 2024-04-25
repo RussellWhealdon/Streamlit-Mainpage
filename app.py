@@ -101,4 +101,6 @@ with st.container():
       <li>Forecasting - Built and tuned XGBoost Model, used multiple forms of feature importance, interpreted model results</li>
     </ul>
     """, unsafe_allow_html=True)
-  
+
+with st.container():
+    st.markdown(f"<h2 style='text-align: left; color: white;'>Tableau Dashboards</h2>", unsafe_allow_html=True)
