@@ -105,4 +105,4 @@ with st.container():
 with st.container():
     st.markdown(f"<h2 style='text-align: left; color: white;'>Tableau Dashboards</h2>", unsafe_allow_html=True)
     st.markdown(f"<h4><a href='{url_WF}' target='_blank'>Period over period comparison for different metrics using dynamic parameters</a></h4>", unsafe_allow_html=True)
-    st.image("TableauPoPChart.gif")
+    st.image("images/TableauPoPChart.gif")
