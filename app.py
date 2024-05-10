@@ -84,7 +84,7 @@ with st.container():
     """, unsafe_allow_html=True)
 
         # Using markdown to add a hyperlink
-    url_MLDash = "https://russellwhealdonportfolio-cawildifire.streamlit.app/"
+    url_MLDash = "https://accountoverviewdash-dummydata.streamlit.app/"
     st.markdown(f"<h4><a href='{url_WF}' target='_blank'>Reporting Dash w/ Forecasting Model using direct BigQuery connection</a></h4>", unsafe_allow_html=True)
     st.markdown(f"<p style='text-align: left; color: white;'>This dashboard using custom python to create visualizations and metrics for account manager reporting.</p>", unsafe_allow_html=True)
     st.markdown(f"<p style='text-align: left; color: white;'>Key Skills Displayed:</p>", unsafe_allow_html=True)
