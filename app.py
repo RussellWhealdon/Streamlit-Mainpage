@@ -98,7 +98,6 @@ with st.container():
     <ul class='white-text-list'>
       <li>Data Visualization w/ Python - Joined multiple datasets, cleaned data, made transformations, and prepped data for modeling</li>
       <li>BigQuery API Connection - Used custom SQL to efficiently pull data from database to create streamlined process for reporting</li>
-      <li>Forecasting - Built and tuned XGBoost Model, used multiple forms of feature importance, interpreted model results</li>
     </ul>
     """, unsafe_allow_html=True)
 
