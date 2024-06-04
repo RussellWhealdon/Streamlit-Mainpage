@@ -133,4 +133,4 @@ with st.container():
     st.write("    ")
     st.markdown(f"<h4 style='text-align: left; color: white;'>Creative Testing and Response Rate Dashboard</h4>", unsafe_allow_html=True)
     st.markdown(f"<p style='text-align: left; color: white;'>This dashboard uses LOD expressions and dynamic parameters to quickly allow account managers to switch between key metrics to see both period over period statistics and custom visuals.</p>", unsafe_allow_html=True)
-    st.image("images/DatacampTableauDash.jpg")
+    st.image("images/DatacampTableauDash.png")
