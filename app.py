@@ -64,7 +64,7 @@ with st.container():
     st.write("")
 
 with st.container():
-    st.markdown(f"<h2 style='text-align: left; color: white;'>Projects</h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align: left; color: white;'>Recent Projects</h2>", unsafe_allow_html=True)
     
     ###### CA Wildfire Proj.
     url_WF = "https://russell-whealdon-portfolio-ca-wildfire-analysis.streamlit.app/"
