@@ -138,4 +138,4 @@ with st.container():
     st.write("    ")
     st.markdown(f"<h4 style='text-align: left; color: white;'>Keyword Analysis Dashboard</h4>", unsafe_allow_html=True)
     st.markdown(f"<p style='text-align: left; color: white;'>This dashboard uses processed text data (handled outside tableau) to display performance of keyword campaigns and spend.</p>", unsafe_allow_html=True)
-    st.image("images/TableauKeywordDash.gif")
+    st.image("images/TableauKeywordDash.gif", use_column_width = True)
