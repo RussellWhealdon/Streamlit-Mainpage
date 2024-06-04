@@ -65,7 +65,8 @@ with st.container():
 
 with st.container():
     st.markdown(f"<h2 style='text-align: left; color: white;'>Projects</h2>", unsafe_allow_html=True)
-    # Using markdown to add a hyperlink
+    
+    ###### CA Wildfire Proj.
     url_WF = "https://russell-whealdon-portfolio-ca-wildfire-analysis.streamlit.app/"
     st.markdown(f"<h4><a href='{url_WF}' target='_blank'>California Wildfire Damage Analysis</a></h4>", unsafe_allow_html=True)    
     st.markdown(f"<p style='text-align: left; color: white;'>This dashboard presents an analysis of the economic impacts of wildfires, developed in collaboration with Deloitte's sustainability arm. The project aims to understand and predict the financial damages caused by wildfires, leveraging data on various environmental and economic factors. The predictive modeling was done using an XGBoost regression model, enhanced with SHAP and LIME for model interpretability.</p>", unsafe_allow_html=True)
@@ -85,10 +86,10 @@ with st.container():
     </ul>
     """, unsafe_allow_html=True)
 
-        # Using markdown to add a hyperlink
+    ###### Reporting Dash Proj.
     url_MLDash = "https://accountoverviewdash-dummydata.streamlit.app/"
     st.markdown(f"<h4><a href='{url_MLDash}' target='_blank'>Reporting Dashboard w/ Custom Visuals using direct BigQuery connection</a></h4>", unsafe_allow_html=True)
-    st.markdown(f"<p style='text-align: left; color: white;'>This dashboard using custom python to create visualizations and metrics for account manager reporting.</p>", unsafe_allow_html=True)
+    st.markdown(f"<p style='text-align: left; color: white;'>This dashboard uses custom python to create visualizations and metrics for account manager reporting.</p>", unsafe_allow_html=True)
     st.markdown(f"<p style='text-align: left; color: white;'>Key Skills Displayed:</p>", unsafe_allow_html=True)
     st.markdown("""
     <style>
@@ -102,6 +103,26 @@ with st.container():
       <li>BigQuery API Connection - Used custom SQL to efficiently pull data from database to create streamlined process for reporting</li>
     </ul>
     """, unsafe_allow_html=True)
+
+    ###### Text Analytics Proj.
+    url_TAproj = "https://russell-whealdon-portfolio-textanalytics.streamlit.app/"
+    st.markdown(f"<h4><a href='{url_TAproj}' target='_blank'>Text Analytics Movie Review Dashboard using TMID Database</a></h4>", unsafe_allow_html=True)
+    st.markdown(f"<p style='text-align: left; color: white;'>This dashboard uses a multiple TMDB API connections to pull in various information about movies and what people are saying about them. It also includes a recommendation system based on movies peole like.</p>", unsafe_allow_html=True)
+    st.markdown(f"<p style='text-align: left; color: white;'>Key Skills Displayed:</p>", unsafe_allow_html=True)
+    st.markdown("""
+    <style>
+    ul.white-text-list {
+    color: white;          /* Set the text color to white */
+    padding: 10px;         /* Optional: some padding */
+    }
+    </style>
+    <ul class='white-text-list'>
+      <li>External API connection & mangagement - Used best practices to ensure proper function and health of APIs</li>
+      <li>Data Wrangling w/ Python - Used python to clean and process text data to allow for easier analysis and modeling</li>
+      <li>Text Data Modeling w/ Spacy and Recmetrics - Use of Open Source Packages to create Recommendation System</li>
+    </ul>
+    """, unsafe_allow_html=True)
+
 
 with st.container():
     st.markdown(f"<h2 style='text-align: left; color: white;'>Tableau Dashboards</h2>", unsafe_allow_html=True)
