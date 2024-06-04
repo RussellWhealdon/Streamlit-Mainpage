@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.set_page_config(page_title= f"Russell Whealdon Data Science Portfolio",page_icon="🧑‍🚀",layout="wide")
-st.markdown(f"<h1 style='text-align: center; color: white;'>Russell Whealdon Data Science Portfolio</h1>", unsafe_allow_html=True)
+st.set_page_config(page_title= f"Russell Whealdon Data Portfolio",page_icon="🧑‍🚀",layout="wide")
+st.markdown(f"<h1 style='text-align: center; color: white;'>Russell Whealdon Data Portfolio</h1>", unsafe_allow_html=True)
 
 #Set background image for page
 page_bg_img = """
@@ -42,12 +42,12 @@ sidebar_bg_img = """
 # Inject CSS with Markdown
 st.markdown(sidebar_bg_img, unsafe_allow_html=True)
 
-st.markdown(f"<p style='text-align: center; color: white;'>Hi! I'm Russell Whealdon and this my Data Science portfolio that holds a wide range of interesting Analytics, Machine Learning, and AI related projects. I'm currently a Data Analyst working at an Ad Agency specializing in modeling and data infrastructure. In here you will also find projects from my Masters in Business Analytics program. I hope you find it interesting and would love to hear from you. Please reach out to me directly or connect on Linkedin. Cheers!</p>", unsafe_allow_html=True)
+st.markdown(f"<p style='text-align: center; color: white;'>Hi! I'm Russell Whealdon and this my Data portfolio that holds a wide range of interesting Analytics, Machine Learning, and AI related projects. I'm currently a Data Analyst working at an Ad Agency specializing in modeling and data infrastructure. In here you will also find projects from my Masters in Business Analytics program. I hope you find it interesting and would love to hear from you. Please reach out to me directly or connect on Linkedin. Cheers!</p>", unsafe_allow_html=True)
 
 with st.container():
   st.markdown(f"<h2 style='text-align: left; color: white;'>Skills</h2>", unsafe_allow_html=True)
   st.write("")
-  col1, col2, col3, col4, col5, col6 = st.columns(6)
+  col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
   with col1:
     st.write("")
   with col2:
@@ -59,6 +59,8 @@ with st.container():
   with col5:
     st.image("images/icons8-google-cloud-48.png")
   with col6:
+    st.image("images/Databrickslogo.png")
+  with col7:
     st.write("")
 
 with st.container():
