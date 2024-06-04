@@ -140,6 +140,6 @@ with st.container():
     st.markdown(f"<p style='text-align: left; color: white;'>This dashboard uses processed text data (handled outside tableau) to display performance of keyword campaigns and spend.</p>", unsafe_allow_html=True)
     col100, col101 = st.columns(2)
     with col100:
-        st.image("images/TableauKeywordDash.gif", use_column_width = True)
+        st.image("images/KeywordDashOverview.mov", use_column_width = True)
     with col101:
         st.write("")
